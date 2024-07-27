@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular la siguiente suma</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <header class="bg-primary text-light my-5 rounded mx-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="mb-0">SUMAS</h1>
+            <img src="../logo.png" alt="Logo" class="logo" width="100px">
+        </div>
+    </header>
+
+    <main class="d-flex justify-content-center align-items-center vh-100">
+        <div class="text-center">
+            <p id="question" class="h2 mb-4 text-primary">
+                ¿CUANTO ES:
+                <br><span id="sum" class="d-block h3 display-1 text-success"></span>
+            </p>
+            <div id="options" class="form-group">
+                <!-- Opciones de respuesta se generarán aquí -->
+            </div>
+            <div id="resultado" class="h3 mt-4"></div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>

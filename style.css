@@ -1,0 +1,10 @@
+/* Estilo para los botones de opción */
+.btn-option {
+    width: 100px;
+    height: 60px;
+}
+
+/* Estilo adicional si es necesario para el formato de la suma */
+#sum {
+    font-size: 2rem; /* Ajusta el tamaño de la suma si es necesario */
+}
